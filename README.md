@@ -1,16 +1,23 @@
-# Eksmaen Robotics - fårår 2024 - valgfag 
+# Eksmaen Robotics - forår 2024 - valgfag 
 
 Noter til robotics eksamen. 
 
 ## Komponenter brugt til at bygge vores robotbil
 
-- nodemcu SP8266 
+- NodeMCU SP8266 
 - L298N Motor Driver Module
 - Motor Type TT Double-Shaft 1:48 Gear motor 3V-6V DC
 - Komponenter fra byggesystemet som man finder i abstractica repository
 
 **Jeg skal beskrive komponenterne og hvad vi har brugt dem til**
 
+## Vores proces 
+
+tututututut
+
+## Læring 
+
+bla bla bla bla bla 
 
 ## Serial Peripheral Interface
 Serial Peripheral Interface (SPI) er en seriel kommunikationsprotokol, der anvendes til kortdistancekommunikation, primært i indlejrede systemer. SPI bruges ofte til at overføre data mellem en mikrocontroller og perifere enheder som sensorer, hukommelseschips, skærme og andre enheder.
