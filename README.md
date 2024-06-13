@@ -1,1 +1,42 @@
 # Eksmaen Robotics valgfag - noter
+
+
+
+### Serial Peripheral Interface
+Serial Peripheral Interface (SPI) er en seriel kommunikationsprotokol, der anvendes til kortdistancekommunikation, primært i indlejrede systemer. SPI bruges ofte til at overføre data mellem en mikrocontroller og perifere enheder som sensorer, hukommelseschips, skærme og andre enheder.
+
+Grundlæggende Funktioner
+
+SPI er en synkron seriel kommunikationsprotokol, hvilket betyder, at den overfører data synkroniseret med et kloksignal (SCLK), hvilket giver en højere datahastighed sammenlignet med asynkrone protokoller som UART.
+Komponenter i SPI
+
+    Master: Den enhed, der styrer kommunikationsprocessen. Masteren genererer kloksignalet (SCLK) og vælger hvilke slaveenheder, der skal kommunikere med ved hjælp af Chip Select (CS) signaler.
+    Slave: En eller flere enheder, der kommunikerer med masteren. Hver slave har sin egen Chip Select linje.
+    SCLK (Serial Clock): Kloksignalet genereret af masteren, som synkroniserer dataoverførslen.
+    MOSI (Master Out, Slave In): Linjen, hvor data overføres fra master til slave.
+    MISO (Master In, Slave Out): Linjen, hvor data overføres fra slave til master.
+    CS (Chip Select): Et aktivt-lavt signal, der aktiverer den ønskede slaveenhed.
+
+Dataoverførsel
+
+SPI bruger fuld-dupleks kommunikation, hvilket betyder, at data kan sendes og modtages samtidig. Data overføres bit for bit i takt med kloksignalets overgange (enten stigende eller faldende kant, afhængigt af konfigurationen).
+Fordele ved SPI
+
+    Høj hastighed: SPI kan operere ved meget høje klokfrekvenser, hvilket muliggør hurtig dataoverførsel.
+    Simpel og effektiv: Med få ledninger og en simpel protokol er SPI let at implementere og fejlsøge.
+    Fuld-dupleks kommunikation: Mulighed for samtidig tovejs dataoverførsel øger effektiviteten.
+
+Ulemper ved SPI
+
+    Flere ledninger: SPI kræver flere ledninger sammenlignet med andre serielle protokoller som I2C. For hver slaveenhed kræves en ekstra CS-linje.
+    Ingen standardiseret håndtering af flere mastere: SPI er designet til en enkelt master og flere slaver. At have flere mastere kræver ekstra hardware og kompleksitet.
+    Ingen indbygget flowkontrol: SPI har ikke indbygget flowkontrol, hvilket kan kræve ekstra logik for at håndtere dataflowet korrekt.
+
+Typiske Anvendelser
+
+    Sensorinterfacing: Tilslutning af sensorer som temperaturmåler, tryksensorer osv.
+    Hukommelse: Interfacing med flashhukommelse og EEPROM.
+    Skærme: Kommunikation med LCD- og OLED-skærme.
+    AD/DA-konvertere: Anvendelse i analoge til digitale og digitale til analoge konvertere.
+
+SPI er populært i applikationer, hvor hastighed og enkelhed er vigtig, og hvor de ekstra ledninger ikke er en ulempe. Protokollen anvendes bredt i indlejrede systemer og elektronik.
