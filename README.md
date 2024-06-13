@@ -7,17 +7,25 @@ Noter til robotics eksamen.
 - NodeMCU SP8266 
 - L298N Motor Driver Module
 - Motor Type TT Double-Shaft 1:48 Gear motor 3V-6V DC
+- MG996R High Torque
+Metal Gear Dual Ball Bearing Servo 
 - Komponenter fra byggesystemet som man finder i abstractica repository
 
 **Jeg skal beskrive komponenterne og hvad vi har brugt dem til**
 
 ## Vores proces 
 
-tututututut
+Vi har som studiegruppe haft en proces der bærer præg af en empirisk tilgang, hvor vi prøvede
+os frem og fejlede, hvorefter vi lærte af vores fejl. Vi har løbende opdelt gruppen i mindre
+grupper, der arbejder enten p˚a at bygge den fysiske bil, eller p˚a at programmere Node MCU
+eller samle de elektroniske dele.
 
 ## Læring 
 
-bla bla bla bla bla 
+- 3D print
+- Lower Level Programming
+- Asynkron programmering 
+- Elektronik og hardware
 
 ## Serial Peripheral Interface
 Serial Peripheral Interface (SPI) er en seriel kommunikationsprotokol, der anvendes til kortdistancekommunikation, primært i indlejrede systemer. SPI bruges ofte til at overføre data mellem en mikrocontroller og perifere enheder som sensorer, hukommelseschips, skærme og andre enheder.
