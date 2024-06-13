@@ -11,14 +11,16 @@ Noter til robotics eksamen.
 Metal Gear Dual Ball Bearing Servo 
 - Komponenter fra byggesystemet som man finder i abstractica repository
 
-**Jeg skal beskrive komponenterne og hvad vi har brugt dem til**
-
 ## Vores proces 
 
 Vi har som studiegruppe haft en proces der bærer præg af en empirisk tilgang, hvor vi prøvede
-os frem og fejlede, hvorefter vi lærte af vores fejl. Vi har løbende opdelt gruppen i mindre
+os frem og fejlede, hvorefter vi lærte af vores fejl. 
+
+Vi har løbende opdelt gruppen i mindre
 grupper, der arbejder enten p˚a at bygge den fysiske bil, eller p˚a at programmere Node MCU
 eller samle de elektroniske dele.
+
+Der har været et stort fokus på Learning By Doing. (altså pragmatisme)
 
 ## Læring 
 
